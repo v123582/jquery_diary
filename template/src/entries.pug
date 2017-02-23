@@ -1,0 +1,4 @@
+each entry in entries
+    div.entry
+        .time= formatTime(new Date(entry.created_at))
+        pre.content= entry.content

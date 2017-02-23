@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: default;
+}
+
+#app {
+    margin: 20px auto 40px;
+    width: 800px;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 88px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#theme {
+    float: right;
+    margin: 12px 0;
+}
+
+#new_entry {
+    padding: 16px;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+                0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    line-height: 1.4em;
+    font-size: 16px;
+    resize: vertical;
+}
+
+#diary {
+    margin-top: 40px;
+}
+
+.entry {
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.entry .time {
+    float: right;
+    font-size: 14px;
+}
+
+.entry .content {
+    margin: 0;
+}

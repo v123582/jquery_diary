@@ -1,0 +1,15 @@
+body.default {
+    background-color: #ddd;
+}
+
+body.default h1 {
+    color: rgba(175, 47, 47, 0.15);
+}
+
+body.default .entry {
+    background-color: #fdfdfd;
+}
+
+body.default .entry .time {
+    color: #888;
+}

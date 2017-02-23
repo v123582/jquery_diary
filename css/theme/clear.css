@@ -1,0 +1,15 @@
+body.clear {
+    background-color: #ddfddd;
+}
+
+body.clear h1 {
+    color: #88dd88;
+}
+
+body.clear .entry {
+    background-color: #fdfdfd;
+}
+
+body.clear .entry .time {
+    color: #888;
+}
