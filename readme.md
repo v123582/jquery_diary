@@ -23,3 +23,6 @@
 ```
     node_modules/.bin/pug -c -D template/src/entries.pug -n entries_template -o template/dist
 ```
+```
+    pug -c -D ../../template/src/entries.pug -n entries_template -o template/dist
+```
