@@ -5,14 +5,14 @@ var pug_match_html=/["&<>]/;function entries_template(locals) {var pug_html = ""
   if ('number' == typeof $$obj.length) {
       for (var pug_index0 = 0, $$l = $$obj.length; pug_index0 < $$l; pug_index0++) {
         var entry = $$obj[pug_index0];
-pug_html = pug_html + "\u003Cdiv class=\"entry\"\u003E\u003Cdiv class=\"time\"\u003E" + (pug_escape(null == (pug_interp = formatTime(new Date(entry.created_at))) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\u003Cpre class=\"content\"\u003E" + (pug_escape(null == (pug_interp = entry.content) ? "" : pug_interp)) + "\u003C\u002Fpre\u003E\u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"entry\"\u003E\u003Cdiv class=\"time\"\u003E" + (pug_escape(null == (pug_interp = formatTime(new Date(entry.created_at))) ? "" : pug_interp)) + "\u003Cimg id=\"trash_can\" src=\"https:\u002F\u002Fcdn2.iconfinder.com\u002Fdata\u002Ficons\u002Fweb\u002F512\u002FTrash_Can-512.png\" height=\"22\" width=\"22\"\u002F\u003E\u003C\u002Fdiv\u003E\u003Cpre class=\"content\"\u003E" + (pug_escape(null == (pug_interp = entry.content) ? "" : pug_interp)) + "\u003C\u002Fpre\u003E\u003C\u002Fdiv\u003E";
       }
   } else {
     var $$l = 0;
     for (var pug_index0 in $$obj) {
       $$l++;
       var entry = $$obj[pug_index0];
-pug_html = pug_html + "\u003Cdiv class=\"entry\"\u003E\u003Cdiv class=\"time\"\u003E" + (pug_escape(null == (pug_interp = formatTime(new Date(entry.created_at))) ? "" : pug_interp)) + "\u003C\u002Fdiv\u003E\u003Cpre class=\"content\"\u003E" + (pug_escape(null == (pug_interp = entry.content) ? "" : pug_interp)) + "\u003C\u002Fpre\u003E\u003C\u002Fdiv\u003E";
+pug_html = pug_html + "\u003Cdiv class=\"entry\"\u003E\u003Cdiv class=\"time\"\u003E" + (pug_escape(null == (pug_interp = formatTime(new Date(entry.created_at))) ? "" : pug_interp)) + "\u003Cimg id=\"trash_can\" src=\"https:\u002F\u002Fcdn2.iconfinder.com\u002Fdata\u002Ficons\u002Fweb\u002F512\u002FTrash_Can-512.png\" height=\"22\" width=\"22\"\u002F\u003E\u003C\u002Fdiv\u003E\u003Cpre class=\"content\"\u003E" + (pug_escape(null == (pug_interp = entry.content) ? "" : pug_interp)) + "\u003C\u002Fpre\u003E\u003C\u002Fdiv\u003E";
     }
   }
 }).call(this);

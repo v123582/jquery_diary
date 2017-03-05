@@ -53,6 +53,7 @@ $(function () {
             $('#new_entry').on('keydown', this.preventDefault.bind(this));
             $('#new_entry').on('keyup', this.create.bind(this));
             $('#theme').on('change', this.selectTheme.bind(this));
+            $('#trash_can').on('click', this.delete.bind(this));
         },
         setTheme: function (theme) {
             this.data.theme = theme;
@@ -92,6 +93,20 @@ $(function () {
             });
             $input.val('');
             this.render();
+        },
+        delete: function (e) {
+            console.log("test");
+            // var $time = $(e.target).parent().text().trim();
+            //
+            // for(var i=0;i<this.data.entries.length;i++){
+            //   if(this.data.entries[i] == $time){
+            //     delete this.data.entris[i];
+            //   }
+            // }
+            // console.log(this.data.entries);
+            // console.log("delete pressed" + $time);
+            // console.log("delete pressed");
+            // this.render();
         }
     };
 

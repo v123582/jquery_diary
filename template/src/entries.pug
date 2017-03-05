@@ -1,4 +1,5 @@
 each entry in entries
     div.entry
         .time= formatTime(new Date(entry.created_at))
+          img#trash_can(src='https://cdn2.iconfinder.com/data/icons/web/512/Trash_Can-512.png', height='22', width='22')
         pre.content= entry.content
