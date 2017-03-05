@@ -54,6 +54,7 @@ $(function () {
             $('#new_entry').on('keyup', this.create.bind(this));
             $('#theme').on('change', this.selectTheme.bind(this));
             $('#trash_can').on('click', this.delete.bind(this));
+            $('.trash_can_class').on('click', this.delete.bind(this));
         },
         setTheme: function (theme) {
             this.data.theme = theme;
